@@ -16,7 +16,7 @@ python ./data/extract_data.py
 # 开始训练
 - 启动服务器
 ```sh
-python server.py -p 5000 -i 127.0.0.1 -u 2
+python server.py -p 5000 -i 127.0.0.1 -u 3
 ```
 - 启动客户端（本例中一共启动三个客户端程序，编号分别为0、1、2）
 ```sh
