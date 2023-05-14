@@ -7,7 +7,7 @@ gnome-terminal -e "python data/federated_data_extractor.py"
 sleep 3
 
 echo "Start federated learning on n clients:"
-gnome-terminal -e "python server.py -p 5000 -i 127.0.0.1 -u 2"
+gnome-terminal -e "python server.py -p 5000 -i 127.0.0.1 -u 3"
 
 sleep 3
 
